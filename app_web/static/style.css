@@ -1,0 +1,58 @@
+/* Style pour la page d'upload d'image */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#d6eadf;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #809bce;
+  color : white;
+}
+img {
+  display: block; /* Affiche l'image en tant que bloc */
+  margin: auto; /* Centre l'image horizontalement */
+  width: 40%; /* Limite la largeur de l'image à 50% de la largeur de son conteneur */
+  border-radius: 50%;
+}
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  background-color: #95b8d1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style pour la page de résultat de prédiction */
+
+
+.text_container {
+  text-align: center;
+}
+
+.colored_text {
+  background-color: #809bce;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 24px;
+}
+
